@@ -1,0 +1,145 @@
+img {
+    float: left;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+#class {color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0000;
+    margin-left: 2em;
+    margin-right: ;
+    display: flex;
+    max-width:90%;
+    text-align: left;
+  padding-right: 2em;
+  border: solid #000;
+  }
+  .navbar a {
+    flex-direction: left;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    flex-direction: left;
+    overflow: hidden;
+    max-width: 90%;
+    flex: center;
+    padding-left: ;
+    padding-top: 0.8em;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .nav{
+    padding-top: .8em;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #0000;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #0000;
+    width: 90%;
+    z-index: 1;
+    padding-left: 2em;
+  }
+  
+  .subnav-content a {
+    flex-direction: left;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #0000;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+    padding-top: 3em;
+  }
+  {
+      box-sizing: border-box;
+  }
+  /* Set additional styling options for the columns */
+  .column {
+  flex-direction: left;
+  }
+  main{ width: 100%;}
+
+  /* Set width length for the left, right and middle columns */
+  .left {
+  width: 30%;
+  height:30%;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  max-width: 30%;
+  max-height: 30%;
+  float: left;
+  }
+
+  .middle {
+  width: 70%;
+  height:60%;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  max-height: 60%;
+  max-width: 65%;
+  float: left;
+  }
+  
+  .style{list-style-type: none;}
+footer{text-align: center;
+width:100%;
+height: 20%;
+background-color: #0000;}
+
+.firstcolumn {
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .secoundcolumn {
+    float: left;
+    width: 20%;
+  }
+  .thirdcolumn {
+    float: left;
+    width: 20%;
+  }
+  .fourthcolumn {
+    float: left;
+    width: 20%;
+    padding-top: 2em;
+  }
+  
+  /* Clear floats after the columns */
+  .firstrow:after {
+    content: "";
+    display: table;
+    clear: both;}
